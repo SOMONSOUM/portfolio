@@ -5,6 +5,7 @@ const Home: React.FC = () => {
   return (
     <>
       <SEO title="Home" description="Home Page" />
+
       <Container>
         <h1>Home Page</h1>
       </Container>
