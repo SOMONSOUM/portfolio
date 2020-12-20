@@ -1,12 +1,12 @@
-import GlobalStyled from '../styles/globals'
+import GlobalStyled from '../styles/global.style'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      <GlobalStyled/>
+      <GlobalStyled />
     </>
-    )
+  )
 }
 
 export default MyApp
